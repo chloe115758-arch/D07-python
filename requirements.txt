@@ -1,0 +1,7 @@
+# lotto.py 에 필요한 외부 패키지 없음
+# random, tkinter, datetime 은 파이썬 기본(표준) 라이브러리입니다.
+# 권장 파이썬 버전: 3.12 (conda create -n camp python=3.12 -y)
+
+requests
+python-dotenv
+streamlit

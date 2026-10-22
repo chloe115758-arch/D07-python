@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울 날씨</title><style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: #111; padding: 16px;
+       font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+main { max-width: 480px; margin: 0 auto; }
+h1 { font-size: 22px; }
+.card { border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+.card h2 { font-size: 15px; color: #666; margin: 0 0 12px; }
+.big { font-size: 40px; font-weight: 700; margin: 0 0 4px; }
+.row { display: flex; justify-content: space-between; padding: 8px 0; border-top: 1px solid #f0f0f0; }
+.row span:first-child { color: #666; }
+.tip { margin-top: 12px; padding: 12px; background: #fafafa; border-radius: 12px; }
+.error { color: #b00020; }
+footer { color: #888; font-size: 13px; text-align: center; }
+</style></head>
+<body><main>
+<h1>서울 날씨</h1>
+<div class="card"><h2>서울 현재 날씨</h2>
+<p class="big">12.7°C</p><p>맑음</p>
+<div class="row"><span>체감 온도</span><span>10.8°C</span></div>
+<div class="row"><span>습도</span><span>31% (적당해요.)</span></div>
+<div class="row"><span>강수</span><span>없음</span></div>
+<div class="tip">선선해서 지내기 좋아요.</div></div>
+<div class="card"><h2>대기질</h2>
+<p class="big">양호</p>
+<div class="row"><span>초미세먼지(PM2.5)</span><span>4.2㎍/㎥</span></div>
+<div class="row"><span>미세먼지(PM10)</span><span>7.1㎍/㎥</span></div>
+<div class="tip">공기가 괜찮아요.</div></div>
+<footer>2026년 10월 22일 11:40 기준 · 출처: 날씨·대기질 - OpenWeather</footer>
+</main></body></html>

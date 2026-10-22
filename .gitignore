@@ -1,0 +1,16 @@
+# 비밀 키 (.env.example 은 올려도됨)
+.env
+.env.*
+!.env.example
+
+#python
+__pycache__/
+.streamlit/secrets.toml
+*.py[cod]
+.venv/
+venv/
+
+#streamlit
+.streamlit/
+
+
